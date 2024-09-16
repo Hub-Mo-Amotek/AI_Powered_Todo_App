@@ -43,21 +43,14 @@ Welcome to the **AI-Powered Todo App**! This app takes your to-do lists to the n
     composer install
     ```
 
-3. **Start the Symfony Server**:
-    ```bash
-    symfony server:start
-    ```
-
-4. **Install Frontend Dependencies**:
-    In a separate terminal, navigate to the `assets` directory:
-    ```bash
-    cd assets
-    npm install
-    ```
-
-5. **Run the Frontend Development Server**:
+3. **run builder**:
     ```bash
     npm run dev
+    ```
+
+5. **Run the server**:
+    ```bash
+    symfony server:start
     ```
 
 6. **Open the App**:  
